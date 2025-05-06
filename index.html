@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css  ">
+
+</head>
+<body>
+
+  <section class=" image-bg color-bg">
+      <!-- navbar -->
+  <nav class="navbar navbar-expand-lg  nav-color">
+    <div class="container">
+
+            <div class="d-flex align-items-center justify-content-center pt-3">
+                <a class="navbar-brand text-white " href="#">
+                    <img src="./images/logo.png" alt="weather logo">
+                  </a>   
+                  <div class="d-flex flex-column">
+                    <a class="navbar-brand text-white " href="#">
+                        Weather
+                    </a>
+                    <span class="nav-item text-white " >Sky's Telling Stories.</span>
+                  </div>
+            </div>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 d-flex align-items-center gap-3">
+            <li class="nav-item ">
+                <a class="nav-link active  home-anchor mx-3" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link active text-white news-anchor  mx-3" aria-current="page" href="#">News</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active text-white  camera-anchor mx-3" aria-current="page" href="#">Live Cameras</a>
+              </li>
+
+              
+              <li class="nav-item">
+                <a class="nav-link active text-white photos-anchor mx-3" aria-current="page" href="#">Photos</a>
+              </li>
+
+                                
+              <li class="nav-item">
+                <a class="nav-link active contact-anchor text-white mx-3" aria-current="page" href="#">Contact</a>
+              </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  
+  <!-- search input with the btn -->
+  <div class="container search-input  position-relative ">
+    <input type="search" class="form-control text-white" placeholder="Find your city....">
+    <button type="button" class="text-white btn btn-primary btn-pos">Find</button>
+    <h4 class="text-danger text-center d-none">Location Not Found</h4>
+  </div>
+
+  <div class="container py-5">
+    <div class="row g-0">
+
+      <div class="col-md-4 ">
+        <div class="card border-0 rounded-3 first-card" >
+<!--     
+          <div class="card-header bg-1card-head d-flex justify-content-between ">
+            <h5 class="text-city header-text">Monday</h5>
+            <h5 class="text-city header-text  ">5 May</h5>
+          </div>    
+          
+          <div class="card-body bg-1card-body  ">
+            <h4 class="card-text  text-city">Cairo</h4>
+            <h2 class="text-white text-celsius ">19.4°C</h2>
+            <img src="./images/cloud.webp" class="py-3" alt="">
+            <p class="text-primary">Clear</p>
+
+            <div class="lower-part">
+
+              <ol class="fa-ul d-flex justify-content-between mx-2">
+                <li class=" text-city"><span class="fa-lie">
+                  <img src="./images/icon-umberella.png" class="w-15" alt="">
+                </span>20%</li>
+
+                <li class=" text-city"><span class="fa-lie">
+                  <img src="./images/icon-wind.png" class="w-15" alt="">
+                </span>18km/h</li>
+
+
+                <li class=" text-city"><span class="fa-lie">
+                  <img src="./images/compass.png" class="w-15" alt="">
+                </span>East</li>
+
+              </ol>
+            </div>
+
+          </div> -->
+      </div>
+    </div>
+
+    <!-- second card -->
+
+    <div class="col-md-4">
+      <div class="card border-0 second-card " >
+  
+        <!-- <div class="card-header bg-2card-head d-flex justify-content-center ">
+          <h5 class="text-city header-text">Tuesday</h5>
+
+        </div>    
+        
+        <div class="card-body bg-2card-body d-flex flex-column align-items-center ">
+          <img src="./images/sun.webp" class="w-20 py-3" alt="">
+
+          <h2 class="text-white text-bigger ">33.2°C</h2>
+          <h2 class=" text-small py-4">20.1°</h2>
+          <p class="text-primary padd py-5">Sunny</p>
+
+        </div> -->
+
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card border-0 third-card" >
+
+        <!-- <div class="card-header bg-1card-head d-flex justify-content-center ">
+          <h5 class="text-city header-text">Tuesday</h5>
+
+        </div>    
+        
+        <div class="card-body bg-1card-body d-flex flex-column align-items-center ">
+          <img src="./images/sun.webp" class="w-20 py-3" alt="">
+
+          <h2 class="text-white text-bigger ">33.2°C</h2>
+          <h2 class=" text-small py-4">20.1°</h2>
+          <p class="text-primary padd py-5">Sunny</p>
+
+        </div> -->
+  </div>
+</div>
+
+
+  </div>
+
+  </div>
+
+
+  </section>
+
+
+  <footer id="footer-area" class="py-5">
+
+      <!-- subscribe input with the btn -->
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-8">
+        <div class=" position-relative mt-3 mb-4">
+          <input type="search" class="form-control text-white sub-input p-3" placeholder="Enter your email to subscribe...">
+          <button type="button" class="text-white btn btn-primary  sub-btn ">Subscribe</button>
+        </div>
+
+        <p class="text-city">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+  
+          </div>
+
+          <!-- icons -->
+          <div class="col-md-4">
+
+
+            <div class=" mt-4  mx-5 w-75 d-flex justify-content-evenly">
+              <a href="" class="text-decoration-none">
+                <i class="fa-brands fa-facebook-f icon-color "></i>
+              </a>
+            
+              <a href="" class="text-decoration-none">
+                <i class="fa-brands fa-twitter icon-color "></i>
+              </a>
+  
+              <a href="" class="text-decoration-none">
+                <i class="fa-brands fa-google-plus-g icon-color "></i>
+  
+              </a>
+              
+              <a href="" class="text-decoration-none">
+                <i class="fa-brands fa-pinterest icon-color"></i>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+  
+      </div>
+  </footer>
+
+    <!-- Concept Dependencies -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
